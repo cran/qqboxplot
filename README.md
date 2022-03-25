@@ -4,7 +4,6 @@
 # qqboxplot
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 The qqboxplot package implements q-q boxplots as an extension to
@@ -12,7 +11,11 @@ ggplot2.
 
 ## Installation
 
-[CRAN](https://CRAN.R-project.org) installation coming soon.
+Install through [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("qqboxplot")
+```
 
 The most recent version of qqboxplot can be installed from
 [GitHub](https://github.com/) with:
@@ -41,6 +44,8 @@ simulated_data %>%
                axis.title.x = element_text(size=15),
                panel.border = element_blank(), panel.background = element_rect(fill="white"),
                panel.grid = element_line(colour = "grey70"))
+#> Warning: `guides(<scale> = FALSE)` is deprecated. Please use `guides(<scale> =
+#> "none")` instead.
 ```
 
 ![](man/figures/README-example-1.png)<!-- -->
