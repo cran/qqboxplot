@@ -1,6 +1,6 @@
 Package: qqboxplot
 Title: Implementation of the Q-Q Boxplot
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: 
     person(given = "Jordan",
            family = "Rodu",
@@ -15,7 +15,7 @@ Description: A system to implement the Q-Q boxplot.  It is implemented as an
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Imports: ggplot2, grid
 Depends: R (>= 3.3)
 Suggests: knitr, rmarkdown, dplyr, gridExtra, testthat (>= 3.0.0),
@@ -23,8 +23,8 @@ Suggests: knitr, rmarkdown, dplyr, gridExtra, testthat (>= 3.0.0),
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-03-24 22:31:26 UTC; jorda
+Packaged: 2022-11-20 03:17:28 UTC; jsr6q
 Author: Jordan Rodu [aut, cre]
 Maintainer: Jordan Rodu <jordan.rodu@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-03-25 08:00:05 UTC
+Date/Publication: 2022-11-20 03:30:02 UTC
